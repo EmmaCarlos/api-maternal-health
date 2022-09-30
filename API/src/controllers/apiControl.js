@@ -3,7 +3,7 @@ const {Op} = require ("sequelize");
 
 
 const controller = {
-    dataset:async (req,res)=>{
+    maternal_health:async (req,res)=>{
         try {
             maternal_health.findAll({
                 /* order:[
