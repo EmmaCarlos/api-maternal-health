@@ -1,15 +1,15 @@
 module.exports={
     "development": {
-      "username": "b4b0a8cd707379",
-      "password": "d71e4260",
-      "database": "heroku_48ad915c770713c",
+      "username": "b77011e2530bee",
+      "password": "a7e6a25e",
+      "database": "heroku_80be73df4011766",
       "host": "us-cdbr-east-06.cleardb.net",
       "dialect": "mysql"
     },
     "test": {
       "username": "root",
       "password": null,
-      "database": "database_test",
+      "database": "api",
       "host": "127.0.0.1",
       "dialect": "mysql"
     },
