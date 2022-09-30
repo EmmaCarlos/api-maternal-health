@@ -1,11 +1,9 @@
 const {maternal_health} = require('../database/models');
-const {Op} = require ("sequelize");
 
 
 const controller = {
     maternal_health:async (req,res)=>{
-        try {
-            maternal_health.findAll({
+        await maternal_health.findAll({
                 /* order:[
                     ['Age','DESC']
                 ], */
@@ -19,9 +17,6 @@ const controller = {
                 }
                 res.send(resul);
             })
-        } catch (error) {
-            console.log(error);
         }
-    }
-}
+        }
 module.exports= controller
