@@ -34,7 +34,7 @@ module.exports = (Sequelize, DataType) => {
 
     }, {
         timestamps: false,
-        tableName: 'dataset'
+        tableName: 'maternal_health'
     });
     return maternal_health;
 }

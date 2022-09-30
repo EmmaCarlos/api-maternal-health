@@ -1,7 +1,7 @@
-const {heroku_80be73df4011766} = require('../database/models');
+const {maternal_health} = require('../database/models');
 
 const controller = {
-    dataset:async (req,res)=>{
+    maternal_health:async (req,res)=>{
         try {
             maternal_health.findAll({
                 /* order:[
