@@ -1,9 +1,7 @@
-const {maternal_health} = require('../database/models');
-const {Op} = require ("sequelize");
-const {LIMIT} = Op;
+const {heroku_80be73df4011766} = require('../database/models');
 
 const controller = {
-    users:async (req,res)=>{
+    dataset:async (req,res)=>{
         try {
             maternal_health.findAll({
                 /* order:[

@@ -1,5 +1,5 @@
 module.exports = (Sequelize, DataType) => {
-    const maternal_health = Sequelize.define ('maternal_health',{
+    const heroku_80be73df4011766 = Sequelize.define ('heroku_80be73df4011766',{
         id: {
             type: DataType.INTEGER,
             primaryKey: true,
@@ -34,7 +34,7 @@ module.exports = (Sequelize, DataType) => {
 
     }, {
         timestamps: false,
-        tableName: 'maternal_health'
+        tableName: 'heroku_80be73df4011766'
     });
-    return maternal_health;
+    return heroku_80be73df4011766;
 }
