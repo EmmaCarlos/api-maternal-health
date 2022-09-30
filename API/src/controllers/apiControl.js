@@ -1,7 +1,9 @@
 const {maternal_health} = require('../database/models');
+const {Op} = require ("sequelize");
+
 
 const controller = {
-    maternal_health:async (req,res)=>{
+    dataset:async (req,res)=>{
         try {
             maternal_health.findAll({
                 /* order:[
