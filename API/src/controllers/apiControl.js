@@ -11,11 +11,11 @@ const controller = {
                 ], */
                 attributes:['Age', 'SystolicBP','DiastolicBP','BS','BodyTemp','HeartRate','RiskLevel']
                 
-            }).then(/* users */dataset=>{
+            }).then(/* users */maternal_health=>{
                 let resul={
                     dataset:{
-                    cantidad:dataset.length},
-                    data:dataset
+                    cantidad:maternal_health.length},
+                    data:maternal_health
                 }
                 res.send(resul);
             })
